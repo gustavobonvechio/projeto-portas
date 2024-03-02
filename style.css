@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #F5BA20;
+    --cor2: #B59545;
+    --cor3: #75694A;
+    --cor4: #3C404B;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    height: 100vh;
+    background: black url(images/mountais.jpg) no-repeat fixed top center;
+    background-size: cover;
+}
+div#logo {
+    align-items: center;
+    margin: 30px;
+}
+div#logo > img {
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+@media screen and (max-width: 416px) {
+    div#logo > img {
+        width: 300px;
+    }
+}
+div#conteudo {
+    background-color: var(--cor4);
+    border-radius: 0px 0px 10px;
+    margin: auto;
+    width: 1600px;
+}
+div#cabeça
+{
+    
+}
