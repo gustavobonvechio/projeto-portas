@@ -15,6 +15,18 @@ body {
     background: fixed darkgrey url(images/mountais2.jpg) top center no-repeat;
     background-size: cover;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #E1B401;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
 }
 
 div#espaco {
@@ -46,7 +58,6 @@ article {
     border: 2px solid #E1B401;
     margin: auto;
     padding: 30px;
-    height: 50px;
     max-width: 1400px;
     border-radius: px;
     text-align: center;
@@ -55,15 +66,109 @@ article {
 }
 
 article > h1 {
-    font-weight: 400;
+    font-weight: 300;
 }
 
-article > p > a {
-    text-decoration: none;
+section {
+    background-color: var(--cor2);
+    margin: 40px 20px;
     color: white;
-    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid #E1B401;
+    box-shadow: 0px 0px 10px black;
 }
 
-article > p > a:hover {
-    text-decoration: underline;
+section#servidor {
+    display: inline-block;
+    max-width: 1000px;
+}
+
+section#servidor > h2 {
+    padding-top: 10px;
+    text-indent: 20px;
+}
+
+section#servidor > p {
+    margin: 10px 20px 10px 20px;
+}
+
+section#servidor > a {
+    display: block;
+    text-align: center;
+}
+
+section#servidor > a > img {    
+    width: 300px;
+}
+
+section#servidor > a > img:hover { 
+    transition: 0.5s;   
+    filter: drop-shadow(0px 0px 8px black);
+   
+}
+
+section#membros {
+    display: inline-block;
+    position: absolute;
+    height: 291px;
+    width: 413px;
+}
+
+section#membros > h2 {
+    padding: 10px 20px 20px 20px;
+}
+
+section#membros > ul {
+    list-style-position: inside;
+    padding: 0px 20px 20px 20px;
+}
+
+section#curiosidades {
+    margin: 0px 20px;
+}
+
+section#curiosidades > h2 {
+    padding-top: 10px;
+    text-indent: 20px;
+}
+
+section#curiosidades > ul {
+    padding: 10px 20px 20px 20px;
+    list-style-position: inside;
+}
+
+section#video {
+    display: inline-block;
+    max-width: 704px;
+}
+
+section#video > h2 {
+    padding: 10px 20px 20px 20px;
+}
+
+section#video > video {
+    border: 2px #E1B401 solid;
+    margin: 0px 20px 20px 20px;
+    width: 90%;
+}
+
+section#imagem {
+    display: inline-block;
+    max-width: 704px;
+}
+
+section#imagem > h2 {
+    padding: 10px 20px 20px 20px;
+}
+
+section#imagem > img {
+    border: 2px #E1B401 solid;
+    margin: 0px 20px 20px 20px;
+    width: 90%;
+    filter: blur(15px);
+}
+
+section#imagem > img:hover {
+    transition: 0.5s;
+    filter: none;
 }
