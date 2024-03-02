@@ -1,42 +1,69 @@
 @charset "UTF-8";
 
-:root {
-    --cor1: #F5BA20;
-    --cor2: #B59545;
-    --cor3: #75694A;
-    --cor4: #3C404B;
-}
-
 * {
     margin: 0px;
     padding: 0px;
 }
+
+:root {
+    --cor1: #E1B401;
+    --cor2: #242536;
+    --cor3: #292b3f;
+}
+
 body {
-    height: 100vh;
-    background: black url(images/mountais.jpg) no-repeat fixed top center;
+    background: fixed darkgrey url(images/mountais2.jpg) top center no-repeat;
     background-size: cover;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
-div#logo {
-    align-items: center;
-    margin: 30px;
+
+div#espaco {
+    padding: 10px;
 }
-div#logo > img {
+
+header {
+    padding: 20px;
+}
+
+header > img {
+    margin: auto;
     display: block;
-    width: 400px;
+    width: 350px;
+}
+
+main {
+    background-color: var(--cor3);
+    box-shadow: 0px 0px 15px black;
+    border-top: 2px solid #E1B401;
+    border-radius: 0px 0px;
+    max-width: 1500px;
     margin: auto;
 }
-@media screen and (max-width: 416px) {
-    div#logo > img {
-        width: 300px;
-    }
-}
-div#conteudo {
-    background-color: var(--cor4);
-    border-radius: 0px 0px 10px;
+
+article {
+    background-color: var(--cor2);
+    border-radius: 5px;
+    border: 2px solid #E1B401;
     margin: auto;
-    width: 1600px;
+    padding: 30px;
+    height: 50px;
+    max-width: 1400px;
+    border-radius: px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 15px black;
 }
-div#cabeça
-{
-    
+
+article > h1 {
+    font-weight: 400;
+}
+
+article > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+article > p > a:hover {
+    text-decoration: underline;
 }
