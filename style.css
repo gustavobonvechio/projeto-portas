@@ -243,6 +243,10 @@ section#imagem > img:hover {
 
 @media screen and (max-width: 461px) {
 
+    main {
+        width: 444px;
+    }
+
     section#membros {
         margin: 40px 20px 20px 20px;
     }
