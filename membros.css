@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #E1B401;
+    --cor2: #242536;
+    --cor3: #292b3f;
+}
+
+body {
+    background: fixed darkgrey url(images/mountais2.jpg) top center no-repeat;
+    background-size: cover;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+main {
+    background-color: var(--cor3);
+    box-shadow: 0px 0px 15px black;
+    border-top: 2px solid #E1B401;
+    border-bottom: 2px solid #E1B401;
+    max-width: 1500px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #E1B401;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+header {
+    padding: 20px;
+}
+
+header > a > img {
+    margin: auto;
+    display: block;
+    width: 350px;
+}
+
+article > h1 {
+    color: white;
+    font-weight: 400px;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+section {
+    background-color: var(--cor2);
+    border-radius: 5px;
+    border: 2px solid #E1B401;
+    margin: 20px auto;
+    max-width: 1300px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 15px black;
+    }
+
+section > ul {
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    list-style-position: inside;
+    columns: 5;
+    margin: 40px 20px;
+}
+
+section > ul > li {
+    padding: 10px;
+}
+
+section > ul > li > a > img {
+    width: 50px;
+    vertical-align: middle;
+    border: 2px solid #E1B401;
+}
+
+section > ul > li > a > img:hover {
+    width: 50px;
+    vertical-align: middle;
+    border: 2px solid white;
+}
+
+section > ul > li > span {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1343px) {
+    section {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 1251px) {
+    section > ul {
+        columns: 4;
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    section > ul {
+        columns: 3;
+    }
+}
+
+@media screen and (max-width: 778px) {
+    section > ul {
+        columns: 2;
+    }
+    
+    main {
+        border-bottom: 2px solid #292b3f;
+    }
+
+}
+
+@media screen and (max-width: 556px) {
+    section > ul {
+        columns: 1;
+    }
+}
+
+@media screen and (max-width: 461px) {
+
+    header {
+        margin: 20px;
+        padding: 0px;
+    }
+
+    header > img {
+        margin: 0px 27px;
+    }
+    
+    main {
+        width: 444px;
+    }
+
+    section {
+        width: 402px;
+    }
+}

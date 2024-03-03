@@ -47,7 +47,6 @@ main {
     background-color: var(--cor3);
     box-shadow: 0px 0px 15px black;
     border-top: 2px solid #E1B401;
-    border-radius: 0px 0px;
     max-width: 1500px;
     margin: auto;
 }
@@ -59,7 +58,6 @@ article {
     margin: 0px 20px 0px 20px;
     padding: 30px;
     max-width: 1400px;
-    border-radius: px;
     text-align: center;
     color: white;
     box-shadow: 0px 0px 15px black;
@@ -174,6 +172,11 @@ section#imagem > img:hover {
 }
 
 @media screen and (max-width: 1516px) {
+
+    main {
+        border-bottom: 2px solid #292b3f;
+    }
+
     section#servidor {
         display: block;
         max-width: 1500px;
@@ -200,7 +203,7 @@ section#imagem > img:hover {
     section#imagem {
         display: block;
         text-align: center;
-        margin: 40px auto 0px;
+        margin: 40px auto 20px;
     }
 
     section#video {
@@ -237,7 +240,7 @@ section#imagem > img:hover {
     }
 
     section#imagem {
-        margin: 40px 20px 0px 20px;
+        margin: 40px 20px 20px 20px;
     }
 }
 
@@ -279,6 +282,4 @@ section#imagem > img:hover {
     section#imagem {
         width: 400px;
     }
-
 }
-
