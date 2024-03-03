@@ -30,7 +30,7 @@ a:hover {
 }
 
 div#espaco {
-    padding: 10px;
+    padding: 20px;
 }
 
 header {
@@ -56,7 +56,7 @@ article {
     background-color: var(--cor2);
     border-radius: 5px;
     border: 2px solid #E1B401;
-    margin: auto;
+    margin: 0px 20px 0px 20px;
     padding: 30px;
     max-width: 1400px;
     border-radius: px;
@@ -171,4 +171,25 @@ section#imagem > img {
 section#imagem > img:hover {
     transition: 0.5s;
     filter: none;
+}
+
+@media screen and (max-width: 1515px) {
+    section#servidor {
+        display: block;
+        max-width: 1500px;
+    }
+
+    section#membros {
+        display: block;
+        position: relative;
+        margin: auto;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    section#membros > ul {
+        display: inline-block;
+        flex-direction: column;
+        text-align: left;
+    }
 }
