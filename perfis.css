@@ -134,7 +134,7 @@ strong#verde:hover {
             padding: 0px;
         }
     
-        header > img {
+        header > a > img {
             margin: 0px 27px;
         }
         
