@@ -39,6 +39,12 @@ header > a > img {
     width: 350px;
 }
 
+
+header > a > img:hover {
+    transition: 0.5s;   
+    filter: drop-shadow(0px 0px 10px black);
+}
+
 article {
     margin: 20px 20px 0px 20px;
 }

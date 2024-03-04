@@ -168,7 +168,7 @@ section#imagem > img {
     margin: 0px 20px 20px 20px;
     width: 90%;
     filter: blur(15px);
-}
+}   
 
 section#imagem > img:hover {
     transition: 0.5s;
