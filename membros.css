@@ -132,20 +132,16 @@ section > ul > li > span {
 }
 
 @media screen and (max-width: 461px) {
-
     header {
         margin: 20px;
         padding: 0px;
     }
-
     header > a > img {
         margin: 0px 27px;
     }
-    
     main {
         width: 444px;
     }
-
     section {
         width: 402px;
     }
