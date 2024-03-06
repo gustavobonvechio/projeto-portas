@@ -99,6 +99,16 @@ strong#verde:hover {
     color: rgb(0, 255, 0);
 }
 
+q > a {
+    text-decoration: none;
+    color: #E1B401;
+    font-weight: 600;
+}
+q > a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1020px) {
     div#espaço {
         max-width: 67%;
