@@ -1,5 +1,5 @@
-# Projeto-Portas
+#projeto-portas
  
-Projeto de Site de um Servidor do Discord dos meus amigos
+Projeto de um site pessoal, podendo conter algumas informações bobas e pessoais minhas e de meus amigos.
 
-Esse site não deve ser levado a sério pois é um projeto idiota.
+Esse site não deve ser levado a sério, pois foi feito pensando na diversão para quem acessar.
